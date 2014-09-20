@@ -13,7 +13,7 @@ angular.module('websiteMelanieApp')
         $scope.myInterval = 5000;
         var slides = $scope.slides = [
             {
-                image: '..\\images\\slide1\\CarouselLargeM&R.jpg',
+                image: '/images/slide1/CarouselLargeM&R.jpg',
                 title: 'Engelse conversatie lessen met Melanie',
                 subtitle: 'Leer op een leuke en informele manier vloeiend Engels spreken'
             },
