@@ -36,6 +36,11 @@ body {
     text-align: center;
 }
 
+#gmap {
+    width: 450px;
+    height: 450px;
+}
+
 .features {
     text-align: center;
 }
