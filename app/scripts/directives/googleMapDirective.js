@@ -1,7 +1,7 @@
 angular.module('websiteMelanieApp').
-    directive('googleMap', function() {
+    directive('googlemap', function() {
       return {
-        restrict: 'E',
+        restrict: 'C',
         link: function (scope, elem, attrs) {
           console.log('poep');
           var mapOptions,

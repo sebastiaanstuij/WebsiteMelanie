@@ -219,6 +219,9 @@ ul.unstyled {
     /*}*/
 
 }
-
+.googlemap {
+  width: 300px;
+  height: 300px;
+}
 
 
