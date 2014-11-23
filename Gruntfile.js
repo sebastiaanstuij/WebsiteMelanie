@@ -330,7 +330,8 @@ module.exports = function (grunt) {
             '*.html',
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
-            'fonts/*'
+            'fonts/*',
+            'CNAME'
           ]
         }, {
           expand: true,
@@ -372,22 +373,6 @@ module.exports = function (grunt) {
       unit: {
         configFile: 'test/karma.conf.js',
         singleRun: true
-      }
-    },
-
-    // Grunt build control settings
-    buildcontrol: {
-      options: {
-        dir: 'dist',
-        commit: true,
-        push: true,
-        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
-      },
-      pages: {
-        options: {
-          remote: 'git@github.com:sebastiaanstuij/WebsiteMelanie.git',
-          branch: 'gh-pages'
-        }
       }
     }
   });
