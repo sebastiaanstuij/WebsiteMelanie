@@ -16,7 +16,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ui.bootstrap',
-    'ngTouch'
+    'ngTouch',
+    'seo'
   ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
@@ -32,10 +33,13 @@ angular
         templateUrl: 'views/contact.html',
         controller: 'ContactCtrl'
       })
+      .when('/google732728e00b46dfba.html', {
+        templateUrl: 'google732728e00b46dfba.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
 
-    // use the HTML5 History API
+    // enable html5Mode for pushstate ('#'-less URLs)
     $locationProvider.html5Mode(true);
   });
