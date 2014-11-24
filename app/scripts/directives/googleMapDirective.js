@@ -5,8 +5,8 @@ angular.module('websiteMelanieApp').
         link: function (scope, elem, attrs) {
           var mapOptions, markerOptions, map, marker, infoWindow;
 
-          latitude = 53.106021;
-          longitude = 6.103242;
+          var latitude = 53.106021;
+          var longitude = 6.103242;
 
           // map config
           mapOptions = {
