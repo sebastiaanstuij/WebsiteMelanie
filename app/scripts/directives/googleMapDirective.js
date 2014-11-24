@@ -3,7 +3,6 @@ angular.module('websiteMelanieApp').
       return {
         restrict: 'C',
         link: function (scope, elem, attrs) {
-          console.log('poep');
           var mapOptions,
             latitude = attrs.latitude,
             longitude = attrs.longitude,
