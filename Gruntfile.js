@@ -331,8 +331,8 @@ module.exports = function (grunt) {
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
             'fonts/*',
-            'CNAME',
-            'views/.nojekyll'
+            'CNAME'
+            //'views/.nojekyll'
           ]
         }, {
           expand: true,
