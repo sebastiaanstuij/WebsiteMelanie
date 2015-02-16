@@ -8,8 +8,4 @@ angular.module('websiteMelanieApp')
             return viewLocation === $location.path();
         };
 
-        $scope.doCollapse = function() {
-            $scope.isCollapsed=true;
-        };
-
     });
