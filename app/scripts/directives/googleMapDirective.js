@@ -5,8 +5,8 @@ angular.module('websiteMelanieApp').
         link: function (scope, elem, attrs) {
           var mapOptions, markerOptions, map, marker, infoWindow;
 
-          var latitude = 53.106021;
-          var longitude = 6.103242;
+          var latitude = 52.8576;
+          var longitude = 6.2101;
 
           // map config
           mapOptions = {
@@ -21,7 +21,7 @@ angular.module('websiteMelanieApp').
           markerOptions = {
             position: new google.maps.LatLng(latitude, longitude),
             map: map,
-            title: 'Drachten, Friesland',
+            title: 'Vledder, Drenthe',
             icon: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png'
           };
 
